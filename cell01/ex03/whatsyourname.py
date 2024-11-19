@@ -1,3 +1,3 @@
-x = input("Hey, what's your first name? :")
-y = input("And your last name? :")
-print("Well, pleased to meet you,", x+" "+y)
+x = input("Hey, what's your first name? :").strip()
+y = input("And your last name? :").strip()
+print("Well, pleased to meet you,", x+" "+y,".")
