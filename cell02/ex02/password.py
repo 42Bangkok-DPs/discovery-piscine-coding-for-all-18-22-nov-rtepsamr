@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/bin python3
 x = input()
 y = "Python is awesome"
 if x == y:

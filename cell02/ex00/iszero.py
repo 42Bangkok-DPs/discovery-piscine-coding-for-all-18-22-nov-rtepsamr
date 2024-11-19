@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-x = input('')
+x = int(input())
 if x == 0:
     print("This number is equal to zero")
 else:
