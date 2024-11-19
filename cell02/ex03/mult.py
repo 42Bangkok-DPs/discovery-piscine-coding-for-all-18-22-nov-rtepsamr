@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-x = float(input("Enter the first number: "))
-y = float(input("Enter the second number: "))
+print("Enter the first number:")
+x = int(input())
+print("Enter the second number: ")
+y = int(input())
 result = x * y
-print(result)
 if result > 0:
     print(x,"X",y,"=",result)
     print("The result is positive.")
