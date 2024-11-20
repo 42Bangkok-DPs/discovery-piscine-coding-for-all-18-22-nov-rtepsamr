@@ -7,6 +7,6 @@ if i == 0:
     print("none")
 else:
     word = sys.argv[0]
-    sentence = sys.argv[1]
+    sentence = sys.argv[1:]
     word_count = sentence.count(word)
     print(word_count)
