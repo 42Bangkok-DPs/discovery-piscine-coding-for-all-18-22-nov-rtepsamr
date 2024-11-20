@@ -3,7 +3,7 @@ import sys
 item_list = sys.argv
 item_list.pop(0)
 i = len(item_list)
-if i == 0:
+if i <= 1:
     print("none")
 else:
     word = sys.argv[0]
