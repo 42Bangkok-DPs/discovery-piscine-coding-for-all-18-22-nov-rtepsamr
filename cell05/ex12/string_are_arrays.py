@@ -8,4 +8,8 @@ if i == 0:
 else:
     sentence = sys.argv[0]
     count_z = sentence.count("z")
-    print("z"*count_z)
+    if count_z <= 0:
+        print("none")
+    else:    
+        print("z"*count_z)
+    
