@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 def famous_births(scientists_data):
 
-    sorted_scientists = sorted(
-        scientists_data.values(), key=lambda x: x["date_of_birth"]
-    )
-    export_data = [
-        f"{scientist['name']} is a great scientist born in {scientist['date_of_birth']}"
+    sorted_scientists = sorted(scientists_data.values(), key=lambda x: x["date_of_birth"])
+    export_data = [f"{scientist['name']} is a great scientist born in {scientist['date_of_birth']}"
         for scientist in sorted_scientists
     ]
     for line in export_data:
