@@ -11,4 +11,3 @@ else:
     for x in range(0,count):
         lowercased = downcase_all(letter)
         print(lowercased[x])
-    #print(lowercased)
